@@ -26,4 +26,4 @@ def test_wait():
     answ_field = browser.find_element_by_id('answer').send_keys(z)
     submit = browser.find_element_by_css_selector('body > form > div > div > button').click()
     time.sleep(7)
-
+#
